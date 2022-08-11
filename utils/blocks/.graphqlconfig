@@ -1,0 +1,15 @@
+{
+  "name": "BSC Blocks",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Avalanche Blocks": {
+        "url": "https://api.thegraph.com/subgraphs/name/radioshackcreator/blocks-avalanche",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
